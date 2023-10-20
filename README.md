@@ -7,7 +7,7 @@ The Compose Appled Multistep Animations library for Jetpack Compose is designed 
 Add Compose Applied Muiltistep Animations to your project via JitPack:
 
 ```gradle
-implementation("")
+implementation("com.github.Hypercubesoft:ComposeAppliedAnimations:1.0.2")
 ```
 
 ## Usage
