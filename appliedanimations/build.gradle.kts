@@ -65,10 +65,12 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create("maven", MavenPublication::class.java) {
+            create<MavenPublication>("maven") {
                 groupId = "com.github.Hypercubesoft"
                 artifactId = "ComposeMultistepAnimations"
-                version = "1.0"
+                version = "1.0.2"
+
+                from(components["release"])
             }
         }
     }
